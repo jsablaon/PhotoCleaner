@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream2"
+    android:padding="30dp">
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn1"-->
+    <!--        android:layout_width="150dp"-->
+    <!--        android:layout_height="150dp"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:text="Button1"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn2"-->
+    <!--        android:layout_width="150dp"-->
+    <!--        android:layout_height="150dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_alignParentRight="true"-->
+    <!--        android:text="Button2" />-->
+
+    <ImageButton
+        android:id="@+id/cameraButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="103dp"
+        android:background="@color/cream2"
+        android:src="@drawable/ic_baseline_photo_camera_100" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn3"-->
+    <!--        android:layout_width="150dp"-->
+    <!--        android:layout_height="150dp"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:text="Button3" />-->
+
+    <ImageButton
+        android:id="@+id/editButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:layout_marginRight="34dp"
+        android:background="@color/cream2"
+        android:src="@drawable/ic_baseline_mode_edit_100" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn4"-->
+    <!--        android:layout_width="150dp"-->
+    <!--        android:layout_height="150dp"-->
+    <!--        android:layout_alignParentRight="true"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:text="Button4" />-->
+
+    <ImageButton
+        android:id="@+id/libraryButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/cameraButton"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="38dp"
+        android:background="@color/cream2"
+        android:src="@drawable/ic_baseline_photo_library_100" />
+
+    <ImageButton
+        android:id="@+id/cloudButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/editButton"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="38dp"
+        android:layout_marginRight="34dp"
+        android:background="@color/cream2"
+        android:src="@drawable/ic_baseline_cloud_upload_100" />
+
+    <ImageView
+        android:id="@+id/image_holder"
+        android:layout_width="321dp"
+        android:layout_height="226dp"
+        android:layout_below="@+id/libraryButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="25dp"
+        app:srcCompat="@drawable/ic_baseline_photo_library_200" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="359dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="2dp"
+        android:background="@color/cream2"
+        android:fontFamily="@font/aguafina_script"
+        android:text="Welcome!"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+
+</RelativeLayout>
